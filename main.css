@@ -1,19 +1,26 @@
 html{
-         width: auto;
-         height: 100%;
-     }
+    width: auto;
+    height: 100%;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
 body{
-         background: #e7e3dc;
-     }
+    background-size: auto;
+    background-repeat: no-repeat;
+    background: #e7e3dc;
+}
 
 .site{
-         margin-left: 40px;
-        margin-right: 30px;
-         padding-top: 100px;
-     }
+    margin-left: 20px;
+    margin-right: 14px;
+    padding-top: 100px;
+}
 
 .column1	{
-    width: 800px;
+    width: 600px;
     height: auto;
     background: #ece5fe;
     display: inline-block;
@@ -24,7 +31,9 @@ body{
     border-radius: 3px;
 
 }
-
+.columns{
+    padding-left: 5%;
+}
 .top{
     height: 100%;
     display: flex;
@@ -32,6 +41,9 @@ body{
     position: relative;
     text-size-adjust: 100%;
     position: relative;
+
+
+
 
 }
 .text_Name{
@@ -44,41 +56,144 @@ body{
     cursor: auto;
 
 }
+.products_to_buy_Name{
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 15px;
+    height: 100%;
+    align-items: stretch;
+    position: relative;
+}
+
+.buy_button{
+    display: inline-block;
+    width: 37%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    height: 100%;
+    align-items: stretch;
+    position: relative;
+    text-align: right;
+}
+.count_button{
+    display: inline-block;
+    width: 37%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    height: 100%;
+    align-items: stretch;
+    position: relative;
+    text-align: center;
+
+}
 
 .button_add {
-         width: 15%;
-         color: white;
-         background-color: #263ee7;
-         vertical-align: middle;
-         border-radius: 4px;
-         text-align: center;
-         position: relative;
-         text-decoration-style: solid;
-         border: 1px  black;;
-         box-sizing: border-box;
-         font-weight: bold;
-         outline: none;
-    
+    width: 15%;
+    color: white;
+    background-color: #263ee7;
+    vertical-align: middle;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    text-decoration-style: solid;
+    border: 1px  black;;
+    box-sizing: border-box;
+    font-weight: bold;
+    outline: none;
+
+}
+
+.decrease{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    align-items: flex-start;
+    background-color: #f0385b;
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 2px;
+    padding: 6px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    box-shadow: rgba(30, 30, 40, 0.1) 0px -0.1em 0px 0px inset;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    border: #fff9fc;
+    text-decoration-style: solid;
+    outline: none;
+}
+
+.encrease{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    align-items: flex-start;
+    background-color: #14e247;
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 2px;
+    padding: 6px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    box-shadow: rgba(30, 30, 40, 0.1) 0px -0.1em 0px 0px inset;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    border: #fff9fc;
+    text-decoration-style: solid;
+    outline: none;
+}
+.number{
+    height: 270px;
+    width: 28px;
+    border: #cbc3c2;
+    color: rgba(0, 0, 0, 0.66);
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    position: relative;
+    margin-right: 1.1px;
+    margin-left: 1.1px;
+    padding-top:4px;
+    padding-bottom:8px;
+    padding-left: 12px;
+    padding-right: 9px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-shadow: rgba(34, 36, 38, 0.2) 0px -0.4em 0px 0px inset;
+    text-decoration-style: solid;
 }
 
 .centre_line2{
-     height: auto;
-     width: 800px;
-     box-sizing: border-box;
-     position: relative;
-     padding: 15px;
-     align-items: center;
-     border-top: 1px solid black;
- }
+    height: auto;
+    width: 600px;
+    box-sizing: border-box;
+    position: relative;
+    align-items: left;
+    border-top: 1px solid black;
+    padding: 15px;
+
+}
 
 
 .column2{
     width: 300px;
+    height:auto;
     display: inline-block;
     vertical-align: top;
     padding: 15px;
     border: 1px double black;
     border-radius: 3px;
     background: #ece5fe;
-    
+
 }
