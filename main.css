@@ -1,39 +1,47 @@
 html{
-    width: auto;
     height: 100%;
+    width: auto;
 }
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
+    margin:0px;
     background-size: auto;
     background-repeat: no-repeat;
-    background: #e7e3dc;
+    background: rgb(137, 155, 255);
 }
 
 .site{
     margin-left: 20px;
-    margin-right: 14px;
+    margin-right: 20px;
     padding-top: 100px;
 }
 
 .column1	{
     width: 600px;
     height: auto;
-    background: #ece5fe;
     display: inline-block;
     padding: 15px;
     background: #ece5fe;
     vertical-align: top;
-    border: 1px double black;
+    border:4px double black;
     border-radius: 3px;
+}
 
+.column1_design{
+    background: #ebdbf8;
+    border: 1px rgba(124, 41, 206, 0.46);
+    border-radius: 3px;
+    box-shadow:rgba(30, 30, 40, 0.1) 0px -0.2em 0px 0px inset;
 }
+
 .columns{
-    padding-left: 5%;
+    padding-left: 10%;
 }
+
 .top{
     height: 100%;
     display: flex;
@@ -41,21 +49,19 @@ body{
     position: relative;
     text-size-adjust: 100%;
     position: relative;
-
-
-
-
 }
+
 .text_Name{
     width: 80%;
+    text-shadow: rgba(0,0,0,0.46);
     padding-top: 9px;
     padding-bottom: 9px;
     padding-right: 15px;
     padding-left: 15px;
-    border: 1px solid gainsboro;
+    border: 1px solid #c4c4c4;
     cursor: auto;
-
 }
+
 .products_to_buy_Name{
     display: inline-block;
     width: 25%;
@@ -78,6 +84,7 @@ body{
     position: relative;
     text-align: right;
 }
+
 .count_button{
     display: inline-block;
     width: 37%;
@@ -89,7 +96,6 @@ body{
     align-items: stretch;
     position: relative;
     text-align: center;
-
 }
 
 .button_add {
@@ -105,7 +111,6 @@ body{
     box-sizing: border-box;
     font-weight: bold;
     outline: none;
-
 }
 
 .decrease{
@@ -153,11 +158,12 @@ body{
     text-decoration-style: solid;
     outline: none;
 }
+
 .number{
     height: 270px;
     width: 28px;
     border: #cbc3c2;
-    color: rgba(0, 0, 0, 0.66);
+    color: rgba(0, 0, 0, 0.76);
     background-color: rgb(248, 248, 248);
     text-align: center;
     position: relative;
@@ -184,16 +190,73 @@ body{
     padding: 15px;
 
 }
+.buy_button{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    align-items: stretch;
+    position: relative;
+    text-align: right;
+}
 
+.buy{
+    height: 40px;
+    width: auto;
+    color: rgba(0, 0, 0, 0.95);
+    box-shadow: rgba(34, 36, 38, 0.2) 0px -0.4em 0px 0px inset;
+    background-color: rgb(248, 248, 248);
+    padding-top: 8px;
+    padding-bottom: 11.3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 2.5px;
+    box-sizing: border-box;
+    outline: none;
+    align-items: flex-start;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+}
+
+.delete{
+    height: 40px;
+    width: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: rgba(247, 18, 34, 0.94);
+    box-shadow: rgba(34, 36, 38, 0.15) 0px -0.3em 0px 0px inset;
+    padding-top: 7.5px;
+    padding-bottom: 11.5px;
+    padding-right: 10px;
+    padding-left: 16px;
+    margin: 2.5px;
+    horiz-align: center;
+    box-sizing: border-box;
+    align-items: flex-start;
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    border-radius: 3.8px;
+    text-align: left;
+    position: relative;
+    font-weight: bold;
+    outline: none;
+}
 
 .column2{
     width: 300px;
     height:auto;
+    background: #ece5fe;
+    border:4px double black;
     display: inline-block;
     vertical-align: top;
     padding: 15px;
-    border: 1px double black;
     border-radius: 3px;
-    background: #ece5fe;
-
 }
