@@ -368,6 +368,17 @@ badge .title{
     background: #542cff;
 }
 
+@media print {
+     .badge .title {
+      display: none;
+}
+     .badge{
+      height: 220px;
+      color: black;
+      border: 4px solid black;
+}
+}
+
 @media (max-width: 500px){
     .column1 {
         display: block;
