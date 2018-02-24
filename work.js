@@ -35,7 +35,7 @@ $(document).ready(function(){
             $("#text_Name").value = null;
 
 
-            $node.find(".plus").click(function () {
+            $node.find(".encrease").click(function () {
 
                 quantity += 1;
 
@@ -46,7 +46,7 @@ $(document).ready(function(){
             });
 
 
-            $node.find(".minus").click(function () {
+            $node.find(".decrease").click(function () {
                 if (quantity > 1) {
                     quantity -= 1;
                     $node.find(".number").text(quantity);
@@ -90,32 +90,12 @@ $(document).ready(function(){
 
 
 
-            // $node.find(".buy").click(function () {
-            //    $node.addClass("is-bought");
-            //    $bought.append($b_node);
-            //    $bought.addClass("bought");
-
-            // });
-
-            // $node.find(".unbuy").click(function () {
-            //   $node.removeClass("is-bought");
-            //   $bought.append($b_node);
-
-            //});
-
-
-
-
 
             $node.find(".button-un-bought").click(function () {
                 $node.removeClass("is-bought");
                 $list_right.append($node_right);
 
             });
-
-
-
-
 
 
 
@@ -140,13 +120,12 @@ $(document).ready(function(){
             });
 
 
-            // $('.big_text_area').focus();
             $(".text_Name").val(null);
             $not_bought.append($b_node);
             $list.append($node);
         }}
 
-    $(".add").click(function () {
+    $(".button_add").click(function () {
         var new_name = $new_input.val();
 
         addItem(new_name);
@@ -154,8 +133,8 @@ $(document).ready(function(){
 
     });
 
-    addItem("Горох");
-    addItem("Малина");
-    addItem("Груша");
+    addItem("Печиво");
+    addItem("Сир");
+    addItem("Помідори");
 });
 
