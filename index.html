@@ -28,12 +28,13 @@
 
 
 
-            <div class="column1_line2">
 
+                <div class="column1_line2" style="display:none">
                 <div class="centre_line2">
                     <div class="products_to_buy_Name">
-                        <span class="product" >
-                            <strong>Помідори</strong> </span>
+                        <span class="product" > Помідори </span>
+                        <input class="edit" type="text" style="display:none">
+
 
                     </div>
 
@@ -52,7 +53,12 @@
 
                     <div class="button_buy">
                         <button class="buy">Купити</button>
-                        <button class="delete"> x</button> </span>
+                        <button class="unbuy"style="display:none">Відмінити покупку</button>
+
+
+                        <span class="tooltip" data-tooltip="Видалити">
+                            <button class="delete"> x</button> </span>
+
 
                     </div>
                                  </div>
@@ -60,12 +66,12 @@
 
 
 
-                <div class="column1_line2">
+                <div class="column1_line2"style="display:none">
 
                     <div class="centre_line2">
                         <div class="products_to_buy_Name">
-                        <span class="product" >
-                            <strong>Печиво</strong> </span>
+                            <span class="product" > Печиво </span>
+                            <input class="edit" type="text" style="display:none">
 
                         </div>
 
@@ -84,6 +90,10 @@
 
                         <div class="button_buy">
                             <button class="buy">Купити</button>
+                            <button class="unbuy"style="display:none">Відмінити покупку</button>
+
+
+                            <span class="tooltip" data-tooltip="Видалити">
                             <button class="delete"> x</button> </span>
 
                         </div>
@@ -92,12 +102,12 @@
 
 
 
-                <div class="column1_line2">
+                <div class="column1_line2"style="display:none">
 
                     <div class="centre_line2">
                         <div class="products_to_buy_Name">
-                        <span class="product" >
-                            <strong>Сир</strong> </span>
+                            <span class="product" > Сир </span>
+                            <input class="edit" type="text" style="display:none">
 
                         </div>
 
@@ -115,6 +125,10 @@
 
                         <div class="button_buy">
                             <button class="buy">Купити</button>
+                            <button class="unbuy"style="display:none">Відмінити покупку</button>
+
+
+                            <span class="tooltip" data-tooltip="Видалити">
                             <button class="delete"> x</button> </span>
 
                         </div>
@@ -132,6 +146,7 @@
 
             <div class ="column2">
               <div class = column2_design">
+
                 <div class="top_line">
                     <h3>Залишилось</h3>
                 </div>
@@ -140,21 +155,21 @@
                   <div class="column2_line">
                       <div class="what_to_buy_">
 
-                          <div class="bought_product">
+                          <div class="bought_product"style="display:none">
                         <span class="label">
                     <span class="name_of_bought_product">Помідори</span>
                     <span class="bought_product_number">1</span>
                         </span>
                           </div>
 
-                          <div class="bought_product">
+                          <div class="bought_product"style="display:none">
                         <span class="label">
                     <span class="name_of_bought_product">Печиво</span>
                     <span class="bought_product_number">1</span>
                         </span>
                           </div>
 
-                          <div class="bought_product">
+                          <div class="bought_product"style="display:none">
                         <span class="label">
                     <span class="name_of_bought_product">Сир</span>
                     <span class="bought_product_number">1</span>
@@ -193,6 +208,8 @@
         <div class="created"> Created by: <br> Daryna Utkina </div>
     </div>
 
+<script  type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script	type="text/javascript" src="work.js">	</script>
 
 </body>
 </html>
