@@ -137,4 +137,3 @@ $(document).ready(function(){
     addItem("Сир");
     addItem("Помідори");
 });
-
