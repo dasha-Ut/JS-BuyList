@@ -3,7 +3,7 @@ $(document).ready(function(){
     var $list = $(".column1_design");
     var ONE_ROW_HTML= $(".column1_line2").html();
     var $not_bought = $(".what_to_buy_");
-    var $bought = $(".list_of_bought"); 
+    var $bought = $(".list_of_bought");
     var b_product= $(".bought_product").html();
     var $new_input = $(".text_Name");
 
