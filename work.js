@@ -38,7 +38,7 @@ $(document).ready(function(){
             $node.find(".encrease").click(function () {
 
                 quantity += 1;
-
+                $b_node.find(".bought_product_number").text(quantity);
                 $node.find(".number").text(quantity);
                 $b_node.find(".number_of_bought_product").text(quantity);
 
